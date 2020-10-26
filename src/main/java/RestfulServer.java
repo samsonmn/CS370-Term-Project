@@ -4,12 +4,13 @@ import spark.Response;
 
 public class RestfulServer {
     public RestfulServer(){
-        // ???
+        configureRestfulAPIServer();
+        processRestfulApiRequests();
     }
 
     private void configureRestfulAPIServer(){
         Spark.port(5525);
-        System.out.println("Server configured to listen on port ####");
+        System.out.println("Server configured to listen on port 5525");
     }
     private void processRestfulApiRequests(){
         Spark.get("/", this::echoRequest);
