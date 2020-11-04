@@ -2,7 +2,8 @@
 
 ## Description 
 We build this project to make an easily accessible database. 
-Our purpose... 
+Our purpose was to have an easy to access gradebook.  
+We coded our project in Java. 
 
 ## Usage
 To build our project please follow these commands:
@@ -21,7 +22,7 @@ Options for how to run:
 ## Credits
 This software was made possible by
 - Maria Samson, Sarah Walz, Zoe Krucky 
-- The TAs in CFS 370
+- The TAs in CS 370
 - Open source software such as
   - Spark
 
