@@ -3,7 +3,7 @@
 ## Description 
 We build this project to make an easily accessible database. 
 Our purpose was to have an easy to access gradebook.  
-We coded our project in Java. 
+We coded our project in Java and used port 5525. 
 
 ## Usage
 To build our project please follow these commands:
