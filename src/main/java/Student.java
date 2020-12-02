@@ -6,7 +6,7 @@ public class Student {
     private LinkedList<Course> courses;
 
     public Student(String name){
-        this.name = name.strip();
+        this.name = name; //= name.strip();
         this.courses = new LinkedList<>();
     }
 
