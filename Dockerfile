@@ -5,6 +5,5 @@ COPY pom.xml .
 RUN npm install
 
 EXPOSE 8080
-CMD [ "npm", "start" ]
 
 COPY . .
